@@ -1,1 +1,1 @@
-Projeto de clone do google! 
+Exercício de criação de um clone do google! 
