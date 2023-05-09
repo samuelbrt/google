@@ -195,3 +195,59 @@ footer {
     padding: 15px;
 }
 
+@media (max-width: 767px) {
+
+    .extras,
+    .extras a, .user-apps,
+    .header-item {
+        display: none;
+    }
+
+    .logo {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo img {
+        max-width:200px;
+        max-height:150px;
+        width: auto;
+        height: auto;
+    }
+
+    .search {
+        max-width:315px;
+        max-height:300px;
+        width: auto;
+        height: auto;
+    }
+
+    .search-item {
+        max-width:295px;
+        max-height:300px;
+        width: auto;
+        height: auto;
+    }
+
+    .alt {
+        display: none;
+    }
+
+    footer {
+        position: fixed;
+        bottom: 0;
+        height: 50px;
+    }
+    
+    .country {
+        font-size: 12px;
+        padding: 15px 30px;
+    }
+    
+    .infos {
+        display: none;
+    }
+    
+}
